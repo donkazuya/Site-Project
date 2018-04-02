@@ -20,7 +20,6 @@ html{
 body{
 	font-family: ubuntu, sans-serif;
 	text-align: center;
-	overflow-x: hidden;
 }
 
 header{
@@ -31,7 +30,7 @@ header{
  	left: 0;
  	border-bottom: 1px solid #ccc;
  	background: #fff;
- 	z-index: 2;
+ 	z-index: 10;
 }
 
 img{
@@ -151,6 +150,14 @@ img{
 	margin-top: 95px;
 }
 
+.owl-carousel {
+	list-style: none;
+}
+
+.owl-carousel .owl-stage-outer{
+	overflow: visible;
+}
+
 .titulo{
 	color: #cccece;
 	text-align: center;
@@ -204,6 +211,8 @@ img{
     padding: 10px 25px;
     margin-bottom: 10px;
     border-radius: 2px;
+    top: -22px;
+    z-index: 3;
 }
 
 .servicos{
@@ -530,6 +539,11 @@ footer{
 
 	.slideshow{
 		margin-top: 60px;
+	}
+
+	.subtitulo{
+		top: 0;
+		z-index: 0;
 	}
 
 	.menu-mobile{
