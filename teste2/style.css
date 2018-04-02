@@ -20,7 +20,7 @@ html{
 body{
 	font-family: ubuntu, sans-serif;
 	text-align: center;
-
+	overflow-x: hidden;
 }
 
 header{
