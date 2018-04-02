@@ -8,6 +8,10 @@
 	box-sizing: border-box;
 }
 
+html{
+	overflow-x: hidden;
+}
+
 @font-face{
 	font-family: "bebas neue";
 	src: url(fonts/BebasNeue-Regular.otf);
@@ -16,7 +20,7 @@
 body{
 	font-family: ubuntu, sans-serif;
 	text-align: center;
-	overflow-x: hidden;
+
 }
 
 header{
