@@ -17,7 +17,8 @@ jQuery(document).ready(function($) {
 		autoplay: true,
 		autoplayTimeout: 4000,
 		smartSpeed: 1000,
-		touchDrag:false,
+		touchDrag: false,
+		mouseDrag: false,
 		responsive: {
 			0:{
 				nav: false
