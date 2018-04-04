@@ -17,6 +17,7 @@ jQuery(document).ready(function($) {
 		autoplay: true,
 		autoplayTimeout: 4000,
 		smartSpeed: 1000,
+		touchDrag:false,
 		responsive: {
 			0:{
 				nav: false
@@ -30,9 +31,8 @@ jQuery(document).ready(function($) {
 	$(".portfolio-text .owl-carousel").owlCarousel({
 		loop: true,
 		autoplay: true,
-		autoplayTimeout: 4000,
+		autoplayTimeout: 5000,
 		smartSpeed: 1000,
-		nav: true,
 		responsive : {
 		    // breakpoint from 0 up
 		    0 : {
