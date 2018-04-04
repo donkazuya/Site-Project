@@ -20,6 +20,7 @@ html{
 body{
 	font-family: ubuntu, sans-serif;
 	text-align: center;
+	overflow: hidden;
 }
 
 header{
@@ -148,6 +149,10 @@ img{
 	width: 100%;
 	height: 490px;
 	margin-top: 95px;
+}
+
+#carousel-main{
+	overflow-x:hidden; 
 }
 
 #carousel-main .owl-carousel {
@@ -342,13 +347,20 @@ img{
 
 .portfolio-text ul li{
 	display: inline-block;
-	width: 89%;
+	width: 80%;
 	text-align: left;
 }
 
 .portfolio-text ul li img{
 	border: solid 6px #fff;
-	margin:0 16px;
+	margin: 7px 8px;
+}
+
+.portfolio-text ul li img:hover{
+	transform: scale(1.1);
+	transition: ease-in-out;
+	transition-duration: 0.5s;
+	z-index: 2;
 }
 
 .portfolio-text ul li h3{
@@ -585,8 +597,7 @@ footer{
 
 /*responsivo*/
 
-/*max 720*/
-/*max 720*/
+/*max 950px*/
 @media screen and (max-width: 950px ) {
 
 	.slideshow{
