@@ -152,7 +152,7 @@ img{
 }
 
 #carousel-main{
-	overflow-x:hidden; 
+	overflow: hidden; 
 }
 
 #carousel-main .owl-carousel {
@@ -266,9 +266,9 @@ img{
     margin-top: -18px;
     display: inline-block;
     padding: 10px 25px;
-    margin-bottom: 10px;
+    margin-bottom: -10px;
     border-radius: 2px;
-    top: -22px;
+    top: -106px;
     z-index: 3;
 }
 
