@@ -19,6 +19,7 @@ jQuery(document).ready(function($) {
 		smartSpeed: 1000,
 		touchDrag: false,
 		mouseDrag: false,
+		freeDrag: true,
 		responsive: {
 			0:{
 				nav: false
