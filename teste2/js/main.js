@@ -1,8 +1,5 @@
 jQuery(document).ready(function($) {
-	//Menu Burger Open
-	$('.burger').click(function () {
-  		$(this).toggleClass('open');
-	});
+	$('#carregando').fadeOut();
 
 	//Show Menu
 	$('.burger').click(function(event) {
