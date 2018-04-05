@@ -1,5 +1,10 @@
 jQuery(document).ready(function($) {
-	$('#carregando').fadeOut();
+	$('#carregando').fadeOut('slow');
+
+	//Menu Burger Open
+	$('.burger').click(function () {
+  		$(this).toggleClass('open');
+	});
 
 	//Show Menu
 	$('.burger').click(function(event) {
