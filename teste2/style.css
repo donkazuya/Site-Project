@@ -789,6 +789,11 @@ footer{
 	    text-align: center;
 	    margin: 10px 5px;
 	}
+	
+	.produtos-offer ul li a{
+	   float: none;
+	   display: inline-block;
+	}
 
 	.item {
 	    width: 100%;
