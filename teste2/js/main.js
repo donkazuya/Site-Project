@@ -1,5 +1,9 @@
+$(window).on('load', function() {
+	$('#carregando').fadeOut(function() {
+		$(this).remove();
+	});
+});
 jQuery(document).ready(function($) {
-	$('#carregando').fadeOut('slow');
 
 	//Menu Burger Open
 	$('.burger').click(function () {
@@ -17,7 +21,7 @@ jQuery(document).ready(function($) {
 		loop: true,
 		dots: true,
 		autoplay: true,
-		autoplayTimeout: 4000,
+		autoplayTimeout: 8000,
 		smartSpeed: 1000,
 		touchDrag: false,
 		mouseDrag: false,
