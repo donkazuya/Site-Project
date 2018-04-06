@@ -317,7 +317,8 @@ img{
 }
 
 #portfolio{
-	background-color: #2e3e4f;
+	background-attachment: fixed;
+	background-image: url(images/teste.jpg);
 }
 
 .conteudo-portfolio h3{
