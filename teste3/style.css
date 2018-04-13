@@ -89,7 +89,8 @@ header {
 	transition: all .5s ease-in-out;
 }
 .menu ul li ul.sub-menu li a {
-	border-top: none;	
+	border-top: none;
+	padding: 10px 90px 10px 10px;
 }
 
 .menu ul li ul.sub-menu li a:hover{
@@ -148,7 +149,7 @@ h3 {
 }
 
 h4 {
-	font-weight: 700;
+	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 28px;
 	color: #0eb493;
@@ -170,6 +171,9 @@ h4 {
 
 .conteudo h4 {
 	margin-bottom: 50px;
+	display: inline-block;
+	border-bottom: 1px solid #ccc;
+	padding: 0 30px 30px;
 }
 
 .textbox {
@@ -255,8 +259,8 @@ h4 {
 }
 
 .equipe-icon{
-	width: 260px;
-	height: 300px;
+	max-width: 260px;
+	max-height: 300px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	margin: 10px;
@@ -267,6 +271,7 @@ h4 {
 
 .equipe-icon:hover{
 	filter: grayscale(0%);
+	background-size: 130% 115%;
 }
 
 .nome-equipe{
@@ -315,6 +320,128 @@ h4 {
 	
 }
 
+.formulario{
+	text-align: left;
+}
+
+.endereco h5{
+	font-size: 18px;
+}
+
+.endereco address{
+	font-size: 13px;
+	color: #6a737b;
+	padding: 0 70px 0 0;
+}
+
+.itens-formulario h5{
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.itens-formulario input {
+	border: none;
+	border-bottom: 1px solid #ccc;
+	width: 49%;
+	margin:20px 0 25px 10px;
+	display: inline-block;
+	padding: 15px 0;
+}
+
+.itens-formulario input:first-child{
+	margin-left: 0;
+}
+
+#mensagem{
+	border: none;
+	resize: none;
+	min-width: 750px;
+	max-width: 100%;
+	min-height: 35px;
+	max-height: 35px;
+	border-bottom: 1px solid #ccc;
+	padding: 0 50px 0 0;
+	margin: 10px 10px 10px 0px;
+}
+
+#botao{
+	float: right;
+	padding: 10px 0 10px 30px;
+	width: 140px;
+	background: none;
+	border: none;
+	background-image: url(images/icon-mail.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+.rede-social a{
+	filter: grayscale(60%);
+	opacity: .5;
+	margin: 15px 0;
+	background-repeat: no-repeat;
+	padding: 15px 15px;
+	display: block;
+}
+#mapa{
+	background-image: url(images/image-map.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 110%;
+	padding: 100px 0;
+	border-bottom: 5px solid #000;
+}
+
+footer{
+	background-color: #1ea78d;
+	text-align: left;
+	color: #fff;
+}
+
+.rodape{
+	margin: 105px 0;
+}
+
+.rodape p{
+	line-height: 1.9em;
+}
+
+.logo-footer{
+	margin-bottom: 45px;
+}
+
+.logo-footer h5{
+	font-size: 14px;
+	font-weight: 700;
+}
+
+#inscricao input{
+	border: 1px solid #fff;
+	border-radius: 3px;
+	width: 100%;
+	background-color: transparent;
+	height: 40px;
+	margin-bottom: 25px;
+}
+
+.explore ul{
+	width: 50%;
+	display: inline-block;
+	padding: 0;
+	
+}
+
+.explore ul:last-child{
+	float: right;
+
+}
+.explore ul li{
+	list-style: none;
+	line-height: 2.5em;
+}
+
+.direitos p{
+	color: #000;
+}
 
 
 
