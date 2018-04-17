@@ -482,5 +482,8 @@ footer{
 .slick-prev{
 	left: -80px;
 	background-image: url(images/arrow-prev.png);
+}
 
+.slick-disabled{
+	display: none !important;
 }
